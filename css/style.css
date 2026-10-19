@@ -18,6 +18,8 @@
 
 .work-sample-img {
     width: 250px !important;
+    height: 140px !important;
+    object-fit: cover;
 }
 
 .work-sample-link {
@@ -88,6 +90,6 @@
     }
 
     .work-sample-img {
-        width: 100% !important;
+        max-width: 100% !important;
     }
 }
