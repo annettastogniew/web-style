@@ -1,88 +1,93 @@
+.work-sample {
+    font-family: Roboto;
+    line-height: 1.35em;
+}
+
 .work-samples-container {
-        margin-top: 50px;
-        display: flex;
-        flex-direction: column;
-        gap: 25px;
-        padding: 0 0 0 15px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 0 0 0 15px;
+}
+
+.work-sample-header {
+    display: flex;
+    gap: 15px;
+}
+
+.work-sample-img {
+    width: 250px !important;
+}
+
+.work-sample-link {
+    color: #3d3d3d;
+    text-decoration: none;
+    margin-bottom: 0;
+}
+
+.work-sample-hed {
+    font-size: 16px;
+    margin-bottom: 0 !important;
+}
+
+.work-sample-type {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.work-sample-type.full-size {
+    font-size: 1em !important;
+    border-width: 3px !important;
+}
+
+.work-sample-type.story {
+    border-bottom: 2px solid #9ACBD0;
+}
+
+.work-sample-type.graphic {
+    border-bottom: 2px solid #D76C82;
+}
+
+.work-sample-type.project {
+    border-bottom: 2px solid #B5A8D5;
+}
+
+.work-sample-date {
+    font-size: 12px;
+    margin-bottom: 0.25em !important;
+    margin-top: 0.25em !important;
+    color: #636363;
+}
+
+.work-sample-dek {
+    font-size: 13px;
+    margin-top: 5px
+}
+
+.work-sample-content {
+    margin-top: 0 !important;
+}
+
+@media (max-width: 500px) {
+    .work-samples-container {
+        width: 100%;
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        column-gap: 15px;
+        row-gap: 25px;
+    }
+
+    .work-sample {
+        max-width: 46%;
     }
 
     .work-sample-header {
-        display: flex;
-        gap: 15px;
+        flex-direction: column;
+        gap: 0;
     }
 
     .work-sample-img {
-        width: 250px !important;
+        width: 100% !important;
     }
-
-    .work-sample-link {
-        color: #3d3d3d;
-        text-decoration: none;
-        margin-bottom: 0;
-    }
-
-    .work-sample-hed {
-        font-size: 16px;
-        margin-bottom: 0 !important;
-    }
-
-    .work-sample-type {
-        font-weight: bold;
-        font-size: 13px;
-    }
-
-    .work-sample-type.full-size {
-        font-size: 1em !important;
-        border-width: 3px !important;
-    }
-
-    .work-sample-type.story {
-        border-bottom: 2px solid #9ACBD0;
-    }
-
-    .work-sample-type.graphic {
-        border-bottom: 2px solid #D76C82;
-    }
-
-    .work-sample-type.project {
-        border-bottom: 2px solid #B5A8D5;
-    }
-
-    .work-sample-date {
-        font-size: 12px;
-        margin-bottom: 0.25em !important;
-        margin-top: 0.25em !important;
-        color: #636363;
-    }
-
-    .work-sample-dek {
-        font-size: 13px;
-        margin-top: 5px
-    }
-
-    .work-sample-content {
-        margin-top: 0 !important;
-    }
-
-    @media (max-width: 500px) {
-        .work-samples-container {
-            width: 100%;
-            flex-direction: row !important;
-            flex-wrap: wrap;
-            column-gap: 10px;
-            row-gap: 5px;
-        }
-
-        .work-sample {
-            max-width: 40%;
-        }
-
-        .work-sample-header {
-            flex-direction: column;
-            gap: 0;
-        }
-
-        .work-sample-img {
-            width: 100% !important;
-        }
-    }
+}
