@@ -14,3 +14,9 @@ const workSampleHtml = row => `
                 </div>
             </a>
         </div>`;
+
+
+$(document).ready(function () {
+	init();
+    var pymChild = new pym.Child({ polling: 500 });
+});
