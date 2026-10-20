@@ -1,19 +1,20 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: #f6f2f0;
 }
 
 #work-samples-container {
     display: flex;
     flex-direction: column;
-    gap: 5px;
 }
 
 .work-sample {
     font-family: Roboto;
     line-height: 1.35em;
     transition: background-color 0.3s ease-in-out;
-    padding: 10px;
+    padding: 12.5px 10px;
+    border-bottom: 1px solid #ece4e0;
 }
 
 .work-sample-header {
@@ -34,7 +35,7 @@ body {
 }
 
 .work-sample:hover {
-    background-color: #e3e3e3;
+    background-color: #ece4e0;
 }
 
 .work-sample-link:focus {
